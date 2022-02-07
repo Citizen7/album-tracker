@@ -1,0 +1,9 @@
+<header>
+    <h1>{{ title.toUpperCase() }}</h1>
+    <app-button
+      color="{{ showAddAlbum ? '#5070ff' : '#ffbd50' }}"
+      text="{{ showAddAlbum ? 'Close' : 'Add' }}"
+      (btnClick)="toggleAddAlbum()">
+    </app-button>
+</header>
+

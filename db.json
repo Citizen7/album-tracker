@@ -1,0 +1,44 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "artist": "Runte, MacGyver, and Bins",
+      "album": "Horror Express",
+      "date": "2008-03-17",
+      "highlight": false,
+      "album_art": "http://dummyimage.com/150x150.png/cc0000/ffffff"
+    },
+    {
+      "id": 2,
+      "artist": "Bashirian LLC",
+      "album": "Happy Christmas",
+      "date": "2005-08-08",
+      "highlight": false,
+      "album_art": null
+    },
+    {
+      "id": 3,
+      "artist": "Corkery, Leannon, and Weimann",
+      "album": "How to Marry a Millionaire",
+      "date": "2013-06-01",
+      "highlight": false,
+      "album_art": "http://dummyimage.com/150x150.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 4,
+      "artist": "Lind, McClure, and Dach",
+      "album": "Birds, the Bees and the Italians, The (Signore & signori)",
+      "date": "2017-04-28",
+      "highlight": true,
+      "album_art": "http://dummyimage.com/150x150.png/ff4444/ffffff"
+    },
+    {
+      "id": 5,
+      "artist": "Little-Koch",
+      "album": "Rollercoaster",
+      "date": "1997-04-25",
+      "highlight": false,
+      "album_art": "http://dummyimage.com/150x150.png/cc0000/ffffff"
+    }
+  ]
+}

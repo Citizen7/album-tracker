@@ -1,0 +1,15 @@
+<form *ngIf="showAddAlbum" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="artistName">Artist</label>
+        <input type="text" name="artistName" [(ngModel)]="artistName" id="artistName" class="form-control-input" placeholder="Album Artist">
+    </div>
+    <div class="form-group">
+        <label for="albumTitle">Album</label>
+        <input type="text" name="albumTitle" [(ngModel)]="albumTitle" id="albumTitle" class="form-control-input" placeholder="Album Title">
+    </div>
+    <div class="form-group">
+        <label for="releaseDate">Date</label>
+        <input type="text" name="releaseDate" [(ngModel)]="releaseDate" id="releaseDate" class="form-control-input" placeholder="Release Date">
+    </div>
+    <input type="submit" value="Save Album" class="btn form-control-submit-button" />
+</form> 
