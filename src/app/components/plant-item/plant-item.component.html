@@ -1,0 +1,19 @@
+<div
+  [ngClass]="{ highlight: thisPlant.highlight }"
+  class="plant"
+  (dblclick)="onToggle(thisPlant)">
+    <h3>{{thisPlant.plant}} 
+        <fa-icon
+            (click)="onDelete(thisPlant)"
+            [icon]="faTimes"
+            title="Remove {{ thisPlant.plant }}">
+        </fa-icon>
+    </h3>
+    <div class="flex-container">
+        <div class="plant-details">
+            <p>Quantity: {{thisPlant.quantity}}</p>
+            <p>Purchased Date: <br /> {{thisPlant.purchasedDate}}</p>
+            <p>Planted Date: <br /> {{thisPlant.plantedDate}}</p>
+        </div>
+    </div>
+</div>

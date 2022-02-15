@@ -1,0 +1,23 @@
+<app-add-plant
+    (onAddPlant)="addPlant($event)">
+</app-add-plant>
+<app-plant-item 
+    *ngFor="let thisPlant of plants | slice:start:end" 
+    [thisPlant]="thisPlant"
+    (onDeletePlant)="deletePlant(thisPlant)"
+    (onToggleHighlight)="toggleHighlight(thisPlant)">
+    <!-- TODO: make this -->>
+</app-plant-item>
+<div class="paginator">
+    <fa-icon [ngClass]="start < 1 ? 'no_move' : ''"
+    (click)="onLess(start, limit)"
+    [icon]="leftArrow"
+    title="Go Back"
+></fa-icon>
+{{ thisPage }} of {{ plants.length/limit | roundup }}
+<fa-icon [ngClass]="(end + 1) > plants.length ? 'no_move' : ''"
+    (click)="onMore(start, limit)"
+    [icon]="rightArrow"
+    title="Show More">
+</fa-icon>
+</div>

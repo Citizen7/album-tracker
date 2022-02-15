@@ -1,0 +1,14 @@
+.paginator {
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    font-size: 1.125rem;
+}
+.ng-fa-icon {
+    cursor: pointer;
+}
+/* This class is used to grey out navigation icons */
+.no_move {
+    cursor: default;
+    color: #333;
+}

@@ -1,0 +1,19 @@
+<form *ngIf="showAddPlant" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="plantName">Plant</label>
+        <input type="text" name="plantName" [(ngModel)]="plantName" id="plantName" class="form-control-input" placeholder="Plant Name">
+    </div>
+    <div class="form-group">
+        <label for="quantity">Quantity</label>
+        <input type="number" name="quantity" [(ngModel)]="quantity" id="quantity" class="form-control-input" placeholder="Plant Title">
+    </div>
+    <div class="form-group">
+        <label for="purchasedDate">Purchased Date</label>
+        <input type="text" name="purchasedDate" [(ngModel)]="purchasedDate" id="purchasedDate" class="form-control-input" placeholder="Purchased Date">
+    </div>
+    <div class="form-group">
+        <label for="plantedDate">Planted Date</label>
+        <input type="text" name="plantedDate" [(ngModel)]="plantedDate" id="plantedDate" class="form-control-input" placeholder="Planted Date">
+    </div>
+    <input type="submit" value="Save Plant" class="btn form-control-submit-button" />
+</form> 

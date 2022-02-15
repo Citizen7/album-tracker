@@ -8,7 +8,7 @@ h4 {
     margin-top: 0px;
     font-style: italic;
 }
-.album {
+.plant {
     background: #212121;
     /* These borders match the background. They prevent cell resizing. */
     border-left: 5px solid #212121;
@@ -17,7 +17,7 @@ h4 {
     padding: 10px 20px;
     cursor: pointer;
 }
-.album:hover {
+.plant:hover {
     border-left: 5px solid #5070ff;
     border-right: 5px solid #5070ff;
     animation-name: border_color;
@@ -33,7 +33,7 @@ h4 {
         border-right-color: #ffbd50;
         }
 }
-.album.highlight {
+.plant.highlight {
     background: #21212f;
     /* These borders match the background. They prevent cell resizing. */
     border-left: 5px solid #21212f;
@@ -45,6 +45,6 @@ h4 {
 .flex-container > div {
     margin: 5px;
 }
-.album-details {
+.plant-details {
     width: 60%;
 }

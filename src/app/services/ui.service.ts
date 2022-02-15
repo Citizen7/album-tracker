@@ -5,14 +5,14 @@ import { Observable, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class UiService {
-  private showAddAlbum: boolean = false;
+  private showAddPlant: boolean = false;
   private subject = new Subject<any>();
 
   constructor() { }
 
-  toggleAddAlbum(): void {
-    this.showAddAlbum = !this.showAddAlbum;
-    this.subject.next(this.showAddAlbum);
+  toggleAddPlant(): void {
+    this.showAddPlant = !this.showAddPlant;
+    this.subject.next(this.showAddPlant);
   }
 
   onToggle(): Observable<any> {

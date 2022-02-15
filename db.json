@@ -1,44 +1,72 @@
 {
-  "albums": [
+  "plants": [
     {
       "id": 1,
       "artist": "Runte, MacGyver, and Bins",
-      "album": "Horror Express",
+      "plant": "Horror Express",
       "date": "2008-03-17",
       "highlight": false,
-      "album_art": "http://dummyimage.com/150x150.png/cc0000/ffffff"
+      "plant_art": "http://dummyimage.com/150x150.png/cc0000/ffffff"
     },
     {
       "id": 2,
       "artist": "Bashirian LLC",
-      "album": "Happy Christmas",
+      "plant": "Happy Christmas",
       "date": "2005-08-08",
       "highlight": false,
-      "album_art": null
+      "plant_art": null
     },
     {
       "id": 3,
       "artist": "Corkery, Leannon, and Weimann",
-      "album": "How to Marry a Millionaire",
+      "plant": "How to Marry a Millionaire",
       "date": "2013-06-01",
       "highlight": false,
-      "album_art": "http://dummyimage.com/150x150.png/5fa2dd/ffffff"
+      "plant_art": "http://dummyimage.com/150x150.png/5fa2dd/ffffff"
     },
     {
       "id": 4,
       "artist": "Lind, McClure, and Dach",
-      "album": "Birds, the Bees and the Italians, The (Signore & signori)",
+      "plant": "Birds, the Bees and the Italians, The (Signore & signori)",
       "date": "2017-04-28",
-      "highlight": true,
-      "album_art": "http://dummyimage.com/150x150.png/ff4444/ffffff"
+      "highlight": false,
+      "plant_art": "http://dummyimage.com/150x150.png/ff4444/ffffff"
     },
     {
-      "id": 5,
-      "artist": "Little-Koch",
-      "album": "Rollercoaster",
-      "date": "1997-04-25",
+      "plant": "Roses",
+      "quantity": 5,
+      "purchasedDate": "02/14/2022",
+      "plantedDate": "02/14/2022",
       "highlight": false,
-      "album_art": "http://dummyimage.com/150x150.png/cc0000/ffffff"
+      "plant_art": null,
+      "id": 6
+    },
+    {
+      "plant": "Frangipan",
+      "quantity": 8,
+      "purchasedDate": "3/7/2021",
+      "plantedDate": "5/2/2021",
+      "highlight": false,
+      "plant_art": null,
+      "id": 7
+    },
+    {
+      "plant": "Chancy Clancy",
+      "quantity": 5,
+      "purchasedDate": "9/1/2021",
+      "plantedDate": "10/15/2021",
+      "highlight": false,
+      "plant_art": null,
+      "id": 8
+    },
+    {
+      "plant": "Bub Rub",
+      "quantity": 3,
+      "purchasedDate": "02/15/2022",
+      "plantedDate": "02/15/2022",
+      "highlight": false,
+      "plant_art": null,
+      "id": 9
     }
   ]
 }

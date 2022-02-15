@@ -8,18 +8,18 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  title: string = 'Album Tracker';
-  showAddAlbum: boolean = false;
+  title: string = 'Plant Tracker';
+  showAddPlant: boolean = false;
   subscription: Subscription = new Subscription();
 
   constructor(private uiService: UiService) { 
-    this.subscription = this.uiService.onToggle().subscribe(value => this.showAddAlbum = value);
+    this.subscription = this.uiService.onToggle().subscribe(value => this.showAddPlant = value);
   }
 
   ngOnInit(): void {}
 
-  toggleAddAlbum() {
-    this.uiService.toggleAddAlbum();
+  toggleAddPlant() {
+    this.uiService.toggleAddPlant();
   }
 
 }
